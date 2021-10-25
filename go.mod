@@ -3,6 +3,7 @@ module go-zero-demo
 go 1.17
 
 require (
+	github.com/golang-jwt/jwt v3.2.1+incompatible
 	github.com/golang/protobuf v1.5.2
 	github.com/tal-tech/go-zero v1.2.2
 	google.golang.org/grpc v1.41.0
@@ -16,8 +17,9 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/go-logr/logr v0.2.0 // indirect
 	github.com/go-redis/redis v6.15.7+incompatible // indirect
+	github.com/go-sql-driver/mysql v1.5.0 // indirect
+	github.com/go-xorm/builder v0.3.4 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
-	github.com/golang-jwt/jwt v3.2.1+incompatible // indirect
 	github.com/golang/mock v1.4.3 // indirect
 	github.com/google/go-cmp v0.5.6 // indirect
 	github.com/google/gofuzz v1.1.0 // indirect
