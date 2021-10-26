@@ -53,10 +53,10 @@ func (l *LoginLogic) Login(req types.LoginReq) (*types.LoginReply, error) {
 	}
 
 	return &types.LoginReply{
-		Id: userInfo.Id,
-		Name: userInfo.Name,
-		Gender: userInfo.Gender,
-		AccessToken: jwtToken,
+		Id:           userInfo.Id,
+		Name:         userInfo.Name,
+		Gender:       userInfo.Gender,
+		AccessToken:  jwtToken,
 		AccessExpire: now + accessExpire,
 		RefreshAfter: now + accessExpire/2,
 	}, nil

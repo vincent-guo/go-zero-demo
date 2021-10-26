@@ -38,7 +38,7 @@ func (l *GetOrderLogic) GetOrder(req types.OrderReq) (*types.OrderReply, error) 
 	}
 
 	return &types.OrderReply{
-		Id: req.Id,
+		Id:   req.Id,
 		Name: "test order",
 	}, nil
 }

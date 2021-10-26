@@ -25,7 +25,7 @@ func NewGetUserLogic(ctx context.Context, svcCtx *svc.ServiceContext) *GetUserLo
 
 func (l *GetUserLogic) GetUser(in *user.IdRequest) (*user.UserResponse, error) {
 	return &user.UserResponse{
-		Id:	"1",
-		Name:	"test",
+		Id:   "1",
+		Name: "test",
 	}, nil
 }

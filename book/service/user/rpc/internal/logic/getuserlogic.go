@@ -30,8 +30,8 @@ func (l *GetUserLogic) GetUser(in *user.IdReq) (*user.UserInfoReply, error) {
 	}
 
 	return &user.UserInfoReply{
-		Id: one.Id,
-		Name: one.Name,
+		Id:     one.Id,
+		Name:   one.Name,
 		Number: one.Number,
 		Gender: one.Gender,
 	}, nil

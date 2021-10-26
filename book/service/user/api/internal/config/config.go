@@ -7,11 +7,11 @@ import (
 
 type Config struct {
 	rest.RestConf
-	Mysql struct{
+	Mysql struct {
 		DataSource string
 	}
 	CacheRedis cache.CacheConf
-	Auth struct{
+	Auth       struct {
 		AccessSecret string
 		AccessExpire int64
 	}
